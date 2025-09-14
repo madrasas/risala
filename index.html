@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Al Risala Academy — Arabic & Quran Courses</title>
+    <meta name="description" content="Al Risala Academy — Arabic for Non-Natives & Quran Recitation 101. Live classes, recorded lessons, certified courses." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=El+Messiri:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      :root{
+        --bg:#fbfdfe;
+        --card:#ffffff;
+        --accent:#0f766e; /* teal-ish */
+        --muted:#6b7280;
+        --gold:#b8871f;
+        --maxw:1100px;
+        --radius:14px;
+      }
+      *{box-sizing:border-box}
+      body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "El Messiri", sans-serif; margin:0; background:var(--bg); color:#0f172a; -webkit-font-smoothing:antialiased}
+      header{background:linear-gradient(90deg, rgba(15,118,110,0.06), rgba(184,135,31,0.03)); padding:28px 16px}
+      .container{max-width:var(--maxw); margin:0 auto}
+      .nav{display:flex; align-items:center; justify-content:space-between}
+      .brand{display:flex; gap:12px; align-items:center}
+      .logo{width:56px; height:56px; background:var(--card); border-radius:12px; display:grid;place-items:center; box-shadow:0 6px 18px rgba(15,118,110,0.06)}
+      .logo h1{margin:0; font-size:18px; color:var(--accent); font-weight:800}
+      nav a{margin-left:16px; color:var(--accent); text-decoration:none; font-weight:600}
+
+      .hero{display:grid; grid-template-columns:1fr 380px; gap:28px; align-items:center; padding:42px 0}
+      .hero h2{font-size:34px; margin:0 0 12px; line-height:1.05}
+      .tag{color:var(--muted); margin-bottom:18px}
+      .ctas{display:flex; gap:12px}
+      .btn{padding:12px 18px; border-radius:10px; border:0; cursor:pointer; font-weight:700}
+      .btn-primary{background:var(--accent); color:white}
+      .btn-ghost{background:transparent; color:var(--accent); border:2px solid rgba(15,118,110,0.12)}
+
+      .card{background:var(--card); border-radius:var(--radius); padding:18px; box-shadow:0 8px 30px rgba(15,18,26,0.04)}
+      .features{display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin-top:12px}
+      .feature{display:flex; gap:10px; align-items:flex-start}
+      .feature .dot{width:44px; height:44px; border-radius:10px; background:linear-gradient(180deg,var(--accent), #0b6a63); color:white; display:grid; place-items:center; font-weight:700}
+
+      .schedule{display:grid; grid-template-columns:1fr 1fr; gap:12px}
+      .price{font-size:22px; font-weight:800}
+
+      .trainers{display:flex; gap:12px; align-items:center}
+      .trainer{display:flex; gap:12px; align-items:center}
+      .avatar{width:64px; height:64px; border-radius:12px; background:linear-gradient(180deg,var(--gold), #f5d8a6); display:grid; place-items:center; font-weight:700}
+
+      footer{padding:28px 16px; text-align:center; color:var(--muted)}
+
+      /* Responsive */
+      @media (max-width:920px){
+        .hero{grid-template-columns:1fr;}
+        .features{grid-template-columns:1fr}
+        .schedule{grid-template-columns:1fr}
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <div class="brand">
+          <div class="logo"><h1>AR</h1></div>
+          <div>
+            <div style="font-weight:800">Al Risala Academy</div>
+            <div style="font-size:13px;color:var(--muted)">Arabic & Quran — Live Certified Courses</div>
+          </div>
+        </div>
+        <nav>
+          <a href="#courses">Courses</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div>
+          <p class="tag">Al Risala Academy • Live & Certified • 1-Year Validity</p>
+          <h2>Arabic for Non-Natives & Quran Recitation 101</h2>
+          <p style="color:var(--muted)">Join live interactive classes, get recorded lessons, and personal trainer support. Rejoin free if you need more time.</p>
+
+          <div style="margin-top:18px" class="ctas">
+            <a class="btn btn-primary" href="#pricing">Enroll Now</a>
+            <a class="btn btn-ghost" href="https://chat.whatsapp.com/BnKl4cso02t3MY4AndE9ly?mode=ems_copy_c" target="_blank">WhatsApp Us</a>
+          </div>
+
+          <div style="margin-top:18px" class="card">
+            <div style="display:flex; justify-content:space-between; align-items:center">
+              <div style="font-weight:700">Course Details</div>
+              <div style="color:var(--muted); font-size:13px">Duration: 2.5 Months • 1-Year Validity</div>
+            </div>
+            <div class="features">
+              <div class="feature"><div class="dot">1</div><div><strong>Arabic for Non-Natives</strong><div style="color:var(--muted)">Fundamentals, reading & speaking</div></div></div>
+              <div class="feature"><div class="dot">2</div><div><strong>Quran Recitation 101</strong><div style="color:var(--muted)">Tajweed basics & fluency</div></div></div>
+              <div class="feature"><div class="dot">⏱</div><div><strong>Class Time</strong><div style="color:var(--muted)">50 minutes per session (Mon, Tue, Wed, Thu & Sat)</div></div></div>
+              <div class="feature"><div class="dot">📖</div><div><strong>Materials</strong><div style="color:var(--muted)">Recorded lessons & study material</div></div></div>
+            </div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="card">
+            <div style="font-weight:800; font-size:18px">Enrollment Offer</div>
+            <p style="margin:6px 0;color:var(--muted)">Regular: ₹10,000 • Offer Price: <span class="price">₹7,500</span> (GST included)</p>
+            <p style="font-size:13px;color:var(--muted)">Limited *50 Batches Celebration Special*</p>
+            <a class="btn btn-primary" href="#pricing" style="width:100%; display:inline-block; text-align:center; margin-top:12px">Enroll at ₹7,500</a>
+
+            <hr style="margin:12px 0; border:none; height:1px; background:#f3f4f6">
+            <div style="font-weight:700">Batches</div>
+            <div style="margin-top:8px">Morning & Night • Personal trainer support • Rejoin free</div>
+
+            <div style="margin-top:12px; font-size:13px; color:var(--muted)">
+              <strong>Contacts</strong>
+              <div style="margin-top:8px">📧 <a href="mailto:alrisalahacademy98@gmail.com">alrisalahacademy98@gmail.com</a></div>
+              <div>📞 <a href="tel:+966551552346">+966551552346</a></div>
+              <div style="margin-top:8px"><a href="https://www.facebook.com/profile.php?id=61580213141984" target="_blank">Facebook</a></div>
+            </div>
+          </div>
+
+          <div style="margin-top:14px;" class="card">
+            <div style="font-weight:700">Trainers</div>
+            <div class="trainers" style="margin-top:8px">
+              <div class="trainer"><div class="avatar">A</div><div><strong>Ataullah</strong><div style="color:var(--muted); font-size:13px">PhD Linguistics (Arabic) — Islamic University of Madinah</div></div></div>
+            </div>
+            <div class="trainers" style="margin-top:8px">
+              <div class="trainer"><div class="avatar">N</div><div><strong>Nasrullah</strong><div style="color:var(--muted); font-size:13px">ThB Da'wah (Creed & Religions) — Islamic University of Madinah</div></div></div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="schedule" style="margin-top:18px">
+        <div class="card">
+          <h3>Days & Class Timings</h3>
+          <p style="color:var(--muted)">Webax Meeting Classes: Monday, Wednesday, Saturday • WhatsApp Live: 24h support • Holidays: Friday & Sunday</p>
+
+          <div class="schedule" style="margin-top:12px">
+            <div>
+              <h4>Morning Batch</h4>
+              <ul style="color:var(--muted)">
+                <li>7:00 — 8:30 (Nepal / Kuwait)</li>
+                <li>7:00 — 7:50 (KSA / UAE)</li>
+                <li>9:30 — 10:20 (India)</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Night Batch</h4>
+              <ul style="color:var(--muted)">
+                <li>7:00 — 7:50 (Abu Dhabi / Dubai)</li>
+                <li>9:30 — 11:00 (India)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="courses" style="margin-top:18px">
+        <div class="card">
+          <h3>Courses</h3>
+          <div style="margin-top:8px; display:flex; gap:12px; flex-wrap:wrap">
+            <div style="flex:1; min-width:220px; padding:12px; border-radius:10px; background:#fbfcfd">
+              <h4>Arabic for Non-Natives</h4>
+              <p style="color:var(--muted); font-size:14px">Beginner to intermediate: reading, writing, speaking, grammar basics and practical conversation.</p>
+            </div>
+            <div style="flex:1; min-width:220px; padding:12px; border-radius:10px; background:#fbfcfd">
+              <h4>Quran Recitation 101</h4>
+              <p style="color:var(--muted); font-size:14px">Tajweed fundamentals, correct articulation (makharij), and fluent recitation practice.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" style="margin-top:18px">
+        <div class="card">
+          <h3>Pricing & Enrollment</h3>
+          <p style="color:var(--muted)">Regular Fees for 2.5 months (1-Year Validity): <strong>₹10,000</strong></p>
+          <p style="color:var(--muted)">🎁 Special Offer: <strong>₹7,500 (GST included)</strong> — 50 Batches Celebration</p>
+          <p style="color:var(--muted)">Note: If you're unable to complete in 2.5 months or want continued improvement, you may rejoin at no extra cost. Personal trainer support included.</p>
+
+          <div style="margin-top:12px; display:flex; gap:8px; flex-wrap:wrap">
+            <a class="btn btn-primary" href="mailto:alrisalahacademy98@gmail.com?subject=Enroll%20-%20Al%20Risala%20Academy">Enroll via Email</a>
+            <a class="btn btn-ghost" href="https://chat.whatsapp.com/BnKl4cso02t3MY4AndE9ly?mode=ems_copy_c" target="_blank">Join WhatsApp</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" style="margin-top:18px; margin-bottom:28px">
+        <div class="card">
+          <h3>Contact & Links</h3>
+          <p style="color:var(--muted)">Email: <a href="mailto:alrisalahacademy98@gmail.com">alrisalahacademy98@gmail.com</a></p>
+          <p style="color:var(--muted)">Phone: <a href="tel:+966551552346">+966551552346</a></p>
+          <p style="color:var(--muted)">Facebook: <a href="https://www.facebook.com/profile.php?id=61580213141984" target="_blank">Al Risala Academy</a></p>
+          <p style="color:var(--muted)">WhatsApp Group: <a href="https://chat.whatsapp.com/BnKl4cso02t3MY4AndE9ly?mode=ems_copy_c" target="_blank">Join</a></p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="container">
+        <div style="margin-bottom:8px">Al Risala Academy © 2025 — Empowering Students with Knowledge</div>
+        <div style="color:var(--muted); font-size:13px">Designed for fast static hosting. Save this file as <code>index.html</code> and upload to your GitHub Pages repository root.</div>
+      </div>
+    </footer>
+
+    <script>
+      // small JS: smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(a=>{
+        a.addEventListener('click', function(e){
+          e.preventDefault();
+          const id = this.getAttribute('href');
+          if(id === '#') return;
+          const el = document.querySelector(id);
+          if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+        })
+      });
+    </script>
+  </body>
+</html>
